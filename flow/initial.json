@@ -11,19 +11,33 @@
             "buenas tardes",
             "buenas noches",
             "me dieron este número",
-            "venden a crédito",
             "quisiera saber si venden",
             "necesito saber"
         ],
         "key": "STEP_1"
     },
+
+
+
     {
         "keywords":  [
-            "cursos",
-            "info",
-            "curso"        ],
+            "Ver el catalogo",
+            "ver catalogo",
+            "catalogo",
+            "Ver el catálogo",
+            "Ver catálogo",
+            "catálogo",
+            "1",
+            "uno"  
+        ],
         "key": "STEP_2"
+        
+        
+        
     },
+
+
+
     {
         "keywords":  [
             "angular"
