@@ -2,7 +2,10 @@
     "DEFAULT":{
         "replyMessage":[
             "Te ofrecemos disculpas, Bot Kay 🤖 no entiende tu pregunta\n",
-            "Prueba escribiendo *Hola* \n"
+            "\n",
+            "¿Quieres volver al menu principal?, escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor?, escribe la palabra *'Asesor'* 👨‍💻"
         ],
         "media":null,
         "trigger":null
@@ -11,11 +14,9 @@
 
     "STEP_0":{
         "replyMessage":[
-            "El flujo ha finalizado \n",
-            "pero puedes ver todo el codigo de este \n",
-            "repositorio en https://github.com/leifermendez/bot-whatsapp.git"
+            "Bot kay 🤖 te desea un feliz resto de dia, Muchas gracias por comunicarse con nosotros"
         ],
-        "media":null,
+        "media":"motivadora.jpg",
         "trigger":null
     },
 
@@ -23,13 +24,19 @@
 
     "STEP_1":{
         "replyMessage":[
-            "¡Hola! 🖐😊, Soy Bot Kay 🤖 espero que te encuentres bien. ",
+            "¡Hola! 🖐😊, Soy *Bot Kay* 🤖 espero que te encuentres bien. ",
             "Estoy para ayudarte a solucionar tus dudas o preguntas , gracias por ",
-            "comunicarse con nosotros. \n ¿Que deseas saber?\n",
+            "comunicarse con nosotros. \n",
             "\n",
-            "1. Ver el catalogo 📖📚\n",
-            "2. Gestionar una compra 📝💲\n",
-            "3. Ver las redes sociales de Ory Kay 📲💻\n"
+            "*¿Que deseas hacer?*\n",
+            "\n",
+            "1. Ver el catalogo 📖 \n",
+            "2. Gestionar una compra 📝 \n",
+            "3. Ver las redes sociales de Ory Kay 📲 \n",
+            "4. Preguntas frecuentes 🤔 \n", 
+            "5. Comunicar me con un asesor 👨‍💻 \n",
+            "6. Ver el estado de mi pedido 🎁 \n",
+            "7. Finalizar 👋"
         ],
         "media":"https://i.postimg.cc/63LkYzy8/Logo-ory-kay.png",
         "trigger":null
@@ -39,8 +46,17 @@
 
     "STEP_2":{
         "replyMessage":[
-            "Elegiste la opcion '1. Ver el catalogo 📖📚', acontinuacion te mostramos nuestro ",
-            "catalogo para que puedas ver nuestros fabulosos productos 💯"
+            "Elegiste la opcion *'1. Ver el catalogo 📖📚'*, acontinuacion te enviaremos nuestro ",
+            "catalogo 📖 para que puedas ver nuestros fabulosos productos 💯\n",
+            "\n",
+            "¿Quieres gestionar una compra? \n",
+            "Escribe la palabra *'Compra'* 💲 \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor? \n",
+            "Escribe la palabra *'Asesor'* 👨‍💻 "
         ],
         "media":"Catalogo_Ory_kay.pdf",
         "trigger":null
@@ -48,98 +64,296 @@
 
 
 
-    "STEP_2_1":{
-        "replyMessage":[
-            "Si te interesa Angular tienes disponible \n",
-            "*(Gratis)* https://bit.ly/367tJ32 \n\n",
-            "*(Pago)* https://link.codigoencasa.com/PROMO-INICIAL \n\n",
-            "*(Pago)* https://link.codigoencasa.com/ANGULAR-BASICO-EDTEAM \n\n",
-            "😎😎😎"
-        ],
-        "media":"https://i.imgur.com/Q0a5UQI.jpg",
-        "trigger":null
-    },
-
-
-
-    "STEP_2_2":{
-        "replyMessage":[
-            "Si te interesa NODE tienes disponible \n",
-            "*(Gratis)* https://bit.ly/3od1Bl6 \n\n",
-            "Espero pronto tener más material disponible",
-            "🤖"
-        ],
-        "media":null,
-        "trigger":null
-    },
-    "STEP_2_3":{
-        "replyMessage":[
-            "NGRX para manejar estados en Angular \n",
-            "*(Gratis)* https://bit.ly/ngrx-desde-cero \n",
-            "A darle! 😮"
-        ],
-        "media":null,
-        "trigger":null
-    },
-    "STEP_2_4":{
-        "replyMessage":[
-            "Muy bien AWS esta pronto a salir pre-registrate aquí \n",
-            "*(Pre-registro)* https://link.codigoencasa.com/AWS-BASICO-INVITACION \n",
-            "😮😮"
-        ],
-        "media":null,
-        "trigger":null
-    },
     "STEP_3":{
         "replyMessage":[
-            "¿Ok cual curso de intereso? \n",
-            "*angular* , *node*, *ngrx*, *aws*"
+            "Elegiste la opcion *'2. Gestionar una compra 📝💲'*, acontinuacion necesito que me envies ",
+            "los siguientes datos del destinatario 🙋‍♂️ de la compra: \n",
+            "\n",
+            "*Nombre completo:* \n",
+            "*Tipo de Documento:* \n",
+            "*Numero de Documento:* \n",
+            "*Numero de Celular:* \n",
+            "*Departamento de Residencia:* \n",
+            "*Municipio de Residencia:* \n",
+            "*Direccion de Residencia:* \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor? \n",
+            "Escribe la palabra *'Asesor'* 👨‍💻"
         ],
         "media":null,
         "trigger":null
     },
+
+
+
     "STEP_4":{
         "replyMessage":[
-            "Gracias a ti! \n"
+            "Elegiste la opcion *'3. Ver las redes sociales de Ory Kay 📲💻'*, acontinuacion te enviaremos ",
+            "los links 🔗 de nuestras redes sociales, le das clic en el que desee y te abrira el perfil 👤: \n ",
+            "\n",
+            "*Instagram:* https://www.instagram.com/ory_kay_/ \n ",
+            "\n",
+            "*Facebook:* En creacion \n",
+            "\n",
+            "*Tik Tok:* En creacion \n",
+            "\n",
+            "*Twitter:* En creacion \n",
+            "\n",
+            "*Correo electronico:* Ayuda@orykay.com.co \n", 
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor? \n",
+            "Escribe la palabra *'Asesor'* 👨‍💻"
         ],
-        "media":"https://media4.giphy.com/media/hur0SFIU5SH4mxNBWa/giphy.gif",
+        "media":null,
         "trigger":null
     },
+
+
+
+
     "STEP_5":{
         "replyMessage":[
-            "Muy bien te comparto el canal de Youtube \n",
-            "https://youtube.com/leifermendez \n"
+            "Elegiste la opcion *'4. Preguntas frecuentes'*, acontinuacion te mostramos el listado 📑 ",
+            "de las preguntas mas frecuentes que nos han hecho: \n",
+            "\n",
+            "1. ¿Como puedo ver el catalogo 📖?, Escribe la palabra *'uno'* \n",
+            "\n",
+            "2. ¿Como puedo hacer una compra 💵?, Escribe la palabra *'dos'* \n",
+            "\n",
+            "3. ¿Puedo pagar con transferencia 💳?, Escribe la palabra *'tres'* \n",
+            "\n",
+            "4. ¿Como puedo ver el estado de mi pedido 💻?, Escribe la palabra *'cuatro'* \n",
+            "\n",
+            "5. ¿Como puedo comunicarme con un asesor 👨‍💻?, Escribe la palabra *'cinco'* \n",
+            "\n",
+            "6. ¿Que productos venden 🎁?, Escribe la palabra *'seis'* \n",
+            "\n",
+            "7. ¿Precio de los productos 💵?, Escribe la palabra *'siete'* \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor? \n",
+            "Escribe la palabra *'Asesor'* 👨‍💻"
         ],
         "media":null,
         "trigger":null
     },
+
+
+
+
     "STEP_6":{
         "replyMessage":[
-            "Perfecto, te voy a pasar la lista ",
-            "de los temas que tengo y un breve video 🙂🤖 \n\n",
-            "*Angular* Basico (Pago) \n",
-            "*Angular* Basico (Gratis) \n",
-            "*Node* Basico (Gratis) \n",
-            "*NGRX* Basico (Gratis) \n",
-            "*AWS* Basico (Pago) \n\n",
-            "Escribe la palabra del tema que te interese \n"
-        ],
-        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
-        "trigger":null
-    },
-    "STEP_7":{
-        "replyMessage":[
-            "Vente al telegram \n",
-            "https://t.me/leifermendez \n"
+            "Elegiste la opcion *'6. Ver el estado de mi pedido 🎁'*, acontinuacion te enviaremos un pantallazo ",
+            "con la informacion de tu pedido 🎁, pero por favor envianos la siguiente informacion: \n ",
+            "\n",
+            "*Tipo de documento del destinatario del paquete:* \n",
+            "*Numero de documento del destinatario del paquete:* \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor? \n",
+            "Escribe la palabra *'Asesor'* 👨‍💻"
         ],
         "media":null,
         "trigger":null
     },
+
+
+
+
+    "STEP_7":{
+        "replyMessage":[
+            "Elegiste la opcion *'5. Comunicar me con un asesor 👨‍💻'*, acontinuacion te enviaremos con uno de ",
+            "nuestros asesores 👨‍💻. Espera un momento en linea por favor \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 "
+        ],
+        "media":null,
+        "trigger":null
+    },
+
+
+
+
+    "STEP_5_1":{
+        "replyMessage":[
+            "Elegiste la opcion *'1. ¿Como puedo ver el catalogo 📖?'*, Bot Kay 🤖 te responde tu pregunta, ",
+            "en el menu principal 📋 esta la opcion *'1.  Ver el catalogo 📖📚'* ahi podras ver nuestro ",
+            "catalogo 📖 o puedes escribir la palabra *'Catalogo'*, *'ver catalogo'*, *'ver el catalogo'* \n",
+            "\n",
+            "¿Quieres volver al menu de preguntas frecuentes? \n",
+            "Escribe la palabra *'Preguntas'* 📑 \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor? \n",
+            "Escribe la palabra *'Asesor'* 👨‍💻"
+        ],
+        "media":null,
+        "trigger":null
+    },
+
+
+
+
+    "STEP_5_2":{
+        "replyMessage":[
+            "Elegiste la opcion *'2. ¿Como puedo hacer una compra 💵?'*, Bot Kay 🤖 te responde tu pregunta, ",
+            "en el menu principal 📋 esta la opcion *'2. Gestionar una compra 📝💲'* ahi podras hacer una compra 💵",
+            "o puedes escribir la palabra *'compra'*, te llegara un mensaje donde te piden los datos de la ",
+            "persona destinataria del paquete 🎁 \n",
+            "\n",
+            "¿Quieres volver al menu de preguntas frecuentes? \n",
+            "Escribe la palabra *'Preguntas'* 📑 \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor? \n",
+            "Escribe la palabra *'Asesor'* 👨‍💻"
+        ],
+        "media":null,
+        "trigger":null
+    },
+
+
+
+
+
+    "STEP_5_3":{
+        "replyMessage":[
+            "Elegiste la opcion *'3. ¿Puedo pagar con transferencia 💳?'*, Bot Kay 🤖 te responde tu pregunta, ",
+            "Si se puede pagar con transferencia 💳, en el menu principal 📋 esta la opcion *'1.  Ver el catalogo 📖📚'* ahi podras ver nuestro ",
+            "catalogo o puedes escribir la palabra *'Catalogo'*, dentro de nuestro catalogo en la pagina 5 ",
+            "se encuentra la opcion de metodos de pago (adjuntamos imagen), donde podras ver nuestras ",
+            "cuentas bancarias disponibles para hacer tu pago por transferencia, solo aplica para Nequi y Daviplata. \n",
+            "\n",
+            "¿Quieres volver al menu de preguntas frecuentes? \n",
+            "Escribe la palabra *'Preguntas'* 📑 \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor? \n",
+            "Escribe la palabra *'Asesor'* 👨‍💻"
+        ],
+        "media":"metodos_pago.PNG",
+        "trigger":null
+    },
+
+
+
+    "STEP_5_4":{
+        "replyMessage":[
+            "Elegiste la opcion *'4. ¿Como puedo ver el estado de mi pedido 💻?'*, Bot Kay 🤖 te responde tu pregunta, ",
+            "en el menu principal 📋 esta la opcion *'6. Ver el estado de mi pedido 🎁'*, o puedes escribir la palabra ",
+            "*'mi pedido'*, *'Ver el estado de mi pedido'*, despues te pedira unas datos donde tienes que enviarnos dicha ",
+            "informacion, despues de eso le llegara un patallazo con la informacion de tu pedido. \n",
+            "\n",
+            "¿Quieres volver al menu de preguntas frecuentes? \n",
+            "Escribe la palabra *'Preguntas'* 📑 \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor? \n",
+            "Escribe la palabra *'Asesor'* 👨‍💻"
+        ],
+        "media":null,
+        "trigger":null
+    },
+
+
+
+    "STEP_5_5":{
+        "replyMessage":[
+            "Elegiste la opcion *'5. ¿Como puedo comunicarme con un asesor 👨‍💻?'*, Bot Kay 🤖 te responde tu pregunta, ",
+            "en el menu principal 📋 esta la opcion *'5. Comunicar con un asesor 👨‍💻'* o puedes escribir la palabra *'Asesor'*, ",
+            "despues de unos minutos un asesor se pondra en contacto contigo. \n",
+            "\n",
+            "¿Quieres volver al menu de preguntas frecuentes? \n",
+            "Escribe la palabra *'Preguntas'* 📑 \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor? \n",
+            "Escribe la palabra *'Asesor'* 👨‍💻"
+        ],
+        "media":null,
+        "trigger":null
+    },
+
+
+    "STEP_5_6":{
+        "replyMessage":[
+            "Elegiste la opcion *'6. Que productos venden 🎁'*, Bot Kay 🤖 te responde tu pregunta, vendemos Shampoos, Cremas para el cuerpo o la cara, productos esteticos, si quieres ver mas de nuestros productos, ",
+            "en el menu principal 📋 esta la opcion *'1.  Ver el catalogo 📖📚'* o puedes escribir la palabra *'Catalogo'*",
+            " ahi podras ver nuestros productos. \n",
+            "\n",
+            "¿Quieres volver al menu de preguntas frecuentes? \n",
+            "Escribe la palabra *'Preguntas'* 📑 \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor? \n",
+            "Escribe la palabra *'Asesor'* 👨‍💻"
+        ],
+        "media":null,
+        "trigger":null
+    },
+
+
+    
+
+    "STEP_5_7":{
+        "replyMessage":[
+            "Elegiste la opcion *'6. Que productos venden 🎁'*, Bot Kay 🤖 te responde tu pregunta, ",
+            "Los productos varian, hay de $4.000 hatas los $80.000 o ",
+            "en el menu principal 📋 esta la opcion *'1.  Ver el catalogo 📖📚'* o puedes escribir la palabra *'Catalogo'*, ",
+            " ahi podras ver nuestros productos. \n",
+            "\n",
+            "¿Quieres volver al menu de preguntas frecuentes? \n",
+            "Escribe la palabra *'Preguntas'* 📑 \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 \n",
+            "\n",
+            "¿Quieres comunicarte con un asesor? \n",
+            "Escribe la palabra *'Asesor'* 👨‍💻"
+        ],
+        "media":null,
+        "trigger":null
+    },
+
+
+
+
+
     "STEP_8":{
         "replyMessage":[
-            "Esto es una nota de voz \n"
+            "Escrbiste la palabra *'Asesor'*, acontinuacion te enviaremos con uno de ",
+            "nuestros asesores 👨‍💻. Espera un momento en linea por favor \n",
+            "\n",
+            "¿Quieres volver al menu principal? \n",
+            "Escribe la palabra *'Menu'* 📋 "
         ],
-        "media":"nota-de-voz.mp3",
+        "media":null,
         "trigger":null
     }
+
+
+
 }

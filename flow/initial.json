@@ -8,11 +8,16 @@
             "inicio",
             "welcome",
             "buenos días",
+            "buenos dias",
             "buenas tardes",
             "buenas noches",
             "me dieron este número",
             "quisiera saber si venden",
-            "necesito saber"
+            "necesito saber",
+            "menu",
+            "menu principal",
+            "menú"
+
         ],
         "key": "STEP_1"
     },
@@ -27,81 +32,178 @@
             "Ver el catálogo",
             "Ver catálogo",
             "catálogo",
-            "1",
-            "uno"  
+            "1"  
         ],
         "key": "STEP_2"
-        
-        
-        
     },
 
 
 
     {
         "keywords":  [
-            "angular"
-        ],
-        "key": "STEP_2_1"
-    },
-    {
-        "keywords":  [
-            "node"
-        ],
-        "key": "STEP_2_2"
-    },
-    {
-        "keywords":  [
-            "ngrx"
-        ],
-        "key": "STEP_2_3"
-    },
-    {
-        "keywords":  [
-            "aws"
-        ],
-        "key": "STEP_2_4"
-    },
-    {
-        "keywords":  [
-            "asesor",
-            "asesores",
-            "Vendedor",
-            "cobrador"
+            "Gestionar una compra",
+            "2",
+            "compra",
+            "comprar",
+            "gestionar compra"
         ],
         "key": "STEP_3"
     },
+
+
+
+
     {
         "keywords":  [
-            "muchas gracias",
-            "ok",
-            "gracias",
-            "vale gracias"
+            "Ver las redes sociales de Ory Kay",
+            "redes",
+            "redes sociales",
+            "Instagram",
+            "Facebook",
+            "tik tok",
+            "3"
         ],
         "key": "STEP_4"
     },
+
+
+
+
     {
         "keywords":  [
-            "youtube"
+            "Preguntas frecuentes",
+            "preguntas",
+            "frecuentes",
+            "4"
         ],
         "key": "STEP_5"
     },
+
+
+
     {
         "keywords":  [
-            "VER_CURSOS"
+            "estado de mi pedido",
+            "que paso con mi pedido",
+            "mi pedido",
+            "Ver el estado de mi pedido",
+            "6"
+            
         ],
         "key": "STEP_6"
     },
+
+
+
     {
         "keywords":  [
-            "telegram"
+            "7",
+            "finalizar",
+            "salir"
+        ],
+        "key": "STEP_0"
+    }, 
+
+
+
+    {
+        "keywords":  [
+            "Comunicar me con un asesor",
+            "quiero comunicarme con un asesor",
+            "5"
+            
         ],
         "key": "STEP_7"
     },
+
+
+
+
     {
         "keywords":  [
-            "audio"
+            "asesor"
+            
         ],
         "key": "STEP_8"
+    },
+
+
+
+
+    {
+        "keywords":  [
+            "uno",
+            "¿Como puedo ver el catalogo?",
+            "Como puedo ver el catalogo"
+        ],
+        "key": "STEP_5_1"
+    }, 
+
+
+
+    {
+        "keywords":  [
+            "dos",
+            "¿Como puedo hacer una compra?",
+            "Como puedo hacer una compra"
+        ],
+        "key": "STEP_5_2"
+    },
+
+
+
+
+    {
+        "keywords":  [
+            "tres",
+            "¿Puedo pagar con transferencia?",
+            "Puedo pagar con transferencia"
+        ],
+        "key": "STEP_5_3"
+    },
+
+
+
+    {
+        "keywords":  [
+            "cuatro",
+            "¿Como puedo ver el estado de mi pedido?",
+            "Como puedo ver el estado de mi pedido"
+        ],
+        "key": "STEP_5_4"
+    },
+
+
+
+
+    {
+        "keywords":  [
+            "cinco",
+            "Como puedo comunicarme con un asesor",
+            "¿Como puedo comunicarme con un asesor?"
+        ],
+        "key": "STEP_5_5"
+    },
+
+
+
+    {
+        "keywords":  [
+            "seis",
+            "Que productos venden",
+            "¿Que productos venden?"
+        ],
+        "key": "STEP_5_6"
+    },
+
+
+
+    {
+        "keywords":  [
+            "siete",
+            "Precio de los productos",
+            "¿Precio de los productos?"
+        ],
+        "key": "STEP_5_7"
     }
 ]
