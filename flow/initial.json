@@ -1,4 +1,15 @@
 [
+
+    {
+        "keywords":  [
+            "finalizar",
+            "salir"
+        ],
+        "key": "STEP_0"
+    }, 
+
+
+
     {
         "keywords":  [
             "hola",
@@ -26,13 +37,10 @@
 
     {
         "keywords":  [
-            "Ver el catalogo",
-            "ver catalogo",
-            "catalogo",
-            "Ver el catálogo",
-            "Ver catálogo",
-            "catálogo",
-            "1"  
+            "1",
+            "¿que es un servicio de red?",
+            "que es un servicio de red",
+            "servicio de red"
         ],
         "key": "STEP_2"
     },
@@ -41,169 +49,75 @@
 
     {
         "keywords":  [
-            "Gestionar una compra",
             "2",
-            "compra",
-            "comprar",
-            "gestionar compra"
+            "entender los servicios de red",
+            "como entiendo que es un servicio de red",
+            "como entiendo los servicios de red"
         ],
         "key": "STEP_3"
     },
 
 
 
+    {
+        "keywords":  [
+            "wan",
+            "las redes de área amplia",
+            "que es una red de área amplia",
+            "¿que es una red de área amplia?"
+        ],
+        "key": "STEP_3_1"
+    },
+
+
 
     {
         "keywords":  [
-            "Ver las redes sociales de Ory Kay",
-            "redes",
-            "redes sociales",
-            "Instagram",
-            "Facebook",
-            "tik tok",
-            "3"
+            "lan",
+            "red de área local",
+            "que es una red de área local",
+            "¿que es una red de área local?"
+        ],
+        "key": "STEP_3_2"
+    },
+
+
+
+    {
+        "keywords":  [
+            "3",
+            "servicios de red en redes locales",
+            "que son los servicios de red en redes locales",
+            "¿que son los servicios de red en redes locales?"
         ],
         "key": "STEP_4"
     },
 
 
 
-
     {
         "keywords":  [
-            "Preguntas frecuentes",
-            "preguntas",
-            "frecuentes",
-            "4"
+            "dns",
+            "que es dns",
+            "sistema de nombres de dominio",
+            "domain name system"
         ],
-        "key": "STEP_5"
+        "key": "STEP_4_1"
     },
 
 
 
     {
         "keywords":  [
-            "estado de mi pedido",
-            "que paso con mi pedido",
-            "mi pedido",
-            "Ver el estado de mi pedido",
-            "6"
-            
+            "ip",
+            "que es ip",
+            "protocolo de Internet",
+            "internet protocol"
         ],
-        "key": "STEP_6"
-    },
-
-
-
-    {
-        "keywords":  [
-            "7",
-            "finalizar",
-            "salir"
-        ],
-        "key": "STEP_0"
-    }, 
-
-
-
-    {
-        "keywords":  [
-            "Comunicar me con un asesor",
-            "quiero comunicarme con un asesor",
-            "5"
-            
-        ],
-        "key": "STEP_7"
-    },
-
-
-
-
-    {
-        "keywords":  [
-            "asesor"
-            
-        ],
-        "key": "STEP_8"
-    },
-
-
-
-
-    {
-        "keywords":  [
-            "uno",
-            "¿Como puedo ver el catalogo?",
-            "Como puedo ver el catalogo"
-        ],
-        "key": "STEP_5_1"
-    }, 
-
-
-
-    {
-        "keywords":  [
-            "dos",
-            "¿Como puedo hacer una compra?",
-            "Como puedo hacer una compra"
-        ],
-        "key": "STEP_5_2"
-    },
-
-
-
-
-    {
-        "keywords":  [
-            "tres",
-            "¿Puedo pagar con transferencia?",
-            "Puedo pagar con transferencia"
-        ],
-        "key": "STEP_5_3"
-    },
-
-
-
-    {
-        "keywords":  [
-            "cuatro",
-            "¿Como puedo ver el estado de mi pedido?",
-            "Como puedo ver el estado de mi pedido"
-        ],
-        "key": "STEP_5_4"
-    },
-
-
-
-
-    {
-        "keywords":  [
-            "cinco",
-            "Como puedo comunicarme con un asesor",
-            "¿Como puedo comunicarme con un asesor?"
-        ],
-        "key": "STEP_5_5"
-    },
-
-
-
-    {
-        "keywords":  [
-            "seis",
-            "Que productos venden",
-            "¿Que productos venden?"
-        ],
-        "key": "STEP_5_6"
-    },
-
-
-
-    {
-        "keywords":  [
-            "siete",
-            "Precio de los productos",
-            "¿Precio de los productos?"
-        ],
-        "key": "STEP_5_7"
+        "key": "STEP_4_1"
     }
+
+
+
+
 ]
